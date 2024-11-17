@@ -1,4 +1,5 @@
 # 内容：Dota2Server
+DOMAIN-SUFFIX,ext7-hkg1.steamserver.net
 IP-CIDR,103.10.124.0/24,no-resolve
 IP-CIDR,103.28.54.0/24,no-resolve
 IP-CIDR,45.121.184.0/24,no-resolve
