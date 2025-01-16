@@ -1,5 +1,5 @@
 # 内容：Dota2Server
-PROCESS-NAME,dota2
+PROCESS-NAME,dota2.exe
 IP-CIDR,103.28.54.0/24,no-resolve
 IP-CIDR,146.66.152.0/24,no-resolve
 IP-CIDR,185.25.182.0/23,no-resolve
