@@ -1,0 +1,34 @@
+[custom]
+ruleset=🛑 Dota2别他妈中继服务器,https://raw.githubusercontent.com/metawarma/ACL4SSR/refs/heads/master/Clash/Ruleset/Dota2Bad.list
+ruleset=🚀 Dota2服务器,https://raw.githubusercontent.com/metawarma/ACL4SSR/refs/heads/master/Clash/Ruleset/Dota2.list
+ruleset=🎯 BYR代理,https://raw.githubusercontent.com/metawarma/ACL4SSR/master/Clash/Ruleset/byr.list
+ruleset=🚀 节点选择,rules/ACL4SSR/Clash/Telegram.list
+ruleset=🚀 节点选择,rules/ACL4SSR/Clash/ProxyMedia.list
+ruleset=🚀 节点选择,rules/ACL4SSR/Clash/ProxyLite.list
+ruleset=🚀 节点选择,DOMAIN-KEYWORD,leetcode
+ruleset=🚀 Steam商店,rules/ACL4SSR/Clash/Ruleset/Steam.list
+ruleset=🚀 Steam下载,rules/ACL4SSR/Clash/Ruleset/SteamCN.list
+ruleset=🎯 全球直连,rules/ACL4SSR/Clash/LocalAreaNetwork.list
+ruleset=🛑 全球拦截,rules/ACL4SSR/Clash/BanAD.list
+ruleset=🛑 全球拦截,rules/ACL4SSR/Clash/BanProgramAD.list
+ruleset=🎯 全球直连,rules/ACL4SSR/Clash/GoogleCN.list
+ruleset=🎯 全球直连,rules/ACL4SSR/Clash/ChinaDomain.list
+ruleset=🎯 全球直连,rules/ACL4SSR/Clash/ChinaCompanyIp.list
+;ruleset=🎯 全球直连,[]GEOIP,LAN
+ruleset=🎯 全球直连,[]GEOIP,CN
+ruleset=🐟 漏网之鱼,[]FINAL
+
+custom_proxy_group=🛑 Dota2别他妈中继服务器`select`[]REJECT`[]DIRECT
+custom_proxy_group=🚀 Steam商店`select`[]♻️ 自动选择`[]DIRECT`.*
+custom_proxy_group=🚀 Steam下载`select`[]♻️ 自动选择`[]DIRECT`.*
+custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]DIRECT`.*
+custom_proxy_group=🚀 Dota2服务器`select`[]♻️ 自动选择`[]♻️ 自动选择Dota2`Dota2`url-test`(游戏)`[]DIRECT`.*
+custom_proxy_group=♻️ 自动选择`url-test`^(?!.*(IPLC))`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=♻️ 自动选择Dota2`url-test`(^\d{2}x$)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🎯 BYR代理`select`[]♻️ 自动选择`.*
+custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择
+custom_proxy_group=🛑 全球拦截`select`[]REJECT`[]DIRECT
+custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]🎯 全球直连`.*
+
+enable_rule_generator=true
+overwrite_original_rules=true
