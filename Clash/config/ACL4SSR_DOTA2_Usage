@@ -18,7 +18,7 @@ ruleset=🎯 全球直连,[]GEOIP,CN
 ruleset=🐟 漏网之鱼,[]FINAL
 
 
-custom_proxy_group=🚀 节点选择`select`^(?!.*(订阅))[]♻️ 自动选择`[]🔯 故障转移`[]🔮 负载均衡`[]DIRECT`.*
+custom_proxy_group=🚀 节点选择`select`^(?!.*(日本))[]♻️ 自动选择`[]🔯 故障转移`[]🔮 负载均衡`[]DIRECT`.*
 custom_proxy_group=🚀 Dota2服务器`select`[]♻️ 自动选择`[]♻️ 自动选择Dota2`Dota2`url-test`(游戏)`[]DIRECT`.*
 custom_proxy_group=🚀 Steam商店`select`[]♻️ 自动选择`[]DIRECT`.*
 custom_proxy_group=🚀 Steam下载`select`[]♻️ 自动选择`[]DIRECT`.*
