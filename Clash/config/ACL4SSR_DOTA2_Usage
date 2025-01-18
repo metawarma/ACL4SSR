@@ -18,12 +18,12 @@ ruleset=🎯 全球直连,[]GEOIP,CN
 ruleset=🐟 漏网之鱼,[]FINAL
 
 
-custom_proxy_group=🚀 节点选择`select`^(?!.*(最新网址|使用|订阅))[]♻️ 自动选择`[]🔯 故障转移`[]🔮 负载均衡`[]DIRECT`.*
+custom_proxy_group=🚀 节点选择`select`^^(?!.*(网址|订阅))[]♻️ 自动选择`[]🔯 故障转移`[]🔮 负载均衡`[]DIRECT`.*
 custom_proxy_group=🚀 Dota2服务器`select`[]♻️ 自动选择`[]♻️ 自动选择Dota2`Dota2`url-test`(游戏)`[]DIRECT`.*
 custom_proxy_group=🚀 Steam商店`select`[]♻️ 自动选择`[]DIRECT`.*
 custom_proxy_group=🚀 Steam下载`select`[]♻️ 自动选择`[]DIRECT`.*
 custom_proxy_group=🎯 BYR代理`select`[]♻️ 自动选择`.*
-custom_proxy_group=♻️ 自动选择`url-test`^(?!.*(IPLC|IEPL|iplc|iepl|专线|游戏|10x|15x|20x))`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=♻️ 自动选择`url-test`^(?!.*(0M|10x|15x|20x))`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=♻️ 自动选择Dota2`url-test`(10x|15x|20x)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🔯 故障转移`fallback`.*`http://www.gstatic.com/generate_204`180
 custom_proxy_group=🔮 负载均衡`load-balance`.*`http://www.gstatic.com/generate_204`180
