@@ -1,5 +1,5 @@
 # 内容：Steam协调server
 # 数量：18条
-DOMAIN,steamserver.net
-DOMAIN,dota2.com
-DOMAIN,steampowered.com
+DOMAIN-SUFFIX,steamserver.net
+DOMAIN-SUFFIX,dota2.com
+DOMAIN-SUFFIX,steampowered.com
