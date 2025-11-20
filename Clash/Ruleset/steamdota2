@@ -1,5 +1,6 @@
 # 内容：steam软件
 # 数量：不知道
+PROCESS-PATH-REGEX,C:\\Program Files (x86)\\Steam\\steamapps\\.*\\.exe
 PROCESS-NAME,html5app_steam.exe
 PROCESS-NAME,steamwebhelper.exe
 PROCESS-NAME,gldriverquery.exe
