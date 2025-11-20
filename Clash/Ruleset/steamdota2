@@ -1,0 +1,18 @@
+# 内容：steam软件
+# 数量：不知道
+PROCESS-PATH,C:\Program Files (x86)\Steam\steamapps
+PROCESS-NAME,html5app_steam.exe
+PROCESS-NAME,steamwebhelper.exe
+PROCESS-NAME,gldriverquery.exe
+PROCESS-NAME,gldriverquery64.exe
+PROCESS-NAME,secure_desktop_capture.exe
+PROCESS-NAME,steamservice.exe
+PROCESS-NAME,steam_monitor.exe
+PROCESS-NAME,x64launcher.exe
+PROCESS-NAME,x86launcher.exe
+PROCESS-NAME,GameOverlayUI.exe
+PROCESS-NAME,steam.exe
+PROCESS-NAME,steamerrorreporter.exe
+PROCESS-NAME,steamerrorreporter64.exe
+PROCESS-NAME,streaming_client.exe
+PROCESS-NAME,WriteMiniDump.exe
