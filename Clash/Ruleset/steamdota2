@@ -1,6 +1,6 @@
 # 内容：steam软件
 # 数量：不知道
-PROCESS-PATH-REGEX,(?i).*steamapps\\.*
+PROCESS-NAME,dota2.exe
 PROCESS-NAME,html5app_steam.exe
 PROCESS-NAME,steamwebhelper.exe
 PROCESS-NAME,gldriverquery.exe
