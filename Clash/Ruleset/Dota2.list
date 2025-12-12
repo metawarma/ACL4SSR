@@ -1,2 +1,3 @@
 # 内容：Dota2orGameServer
 PROCESS-PATH-REGEX,(?i).*\\dota 2 beta\\.*
+PROCESS-PATH-REGEX,(?i).*\\steamapps\\.*
